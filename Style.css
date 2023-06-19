@@ -1,0 +1,293 @@
+/* ESTILOS GENERALES */
+::before,*::after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #67b54b;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.imagen-main{
+    margin: 0 auto;
+
+}
+
+body{
+    background-color: #fffbf7;
+    margin: 0;
+    vertical-align: middle;
+}
+   
+
+h1{
+    color: #025157;
+}
+.contenedor{
+    max-width: 80rem;
+    width: 90%;
+    margin:0  auto;
+}
+/* COMPONENTES */
+.text-center{
+    text-align: center;
+}
+/* HEADER */
+header{
+    padding: 10px;
+    font-size: 0;
+    background-color: black;
+    /* margin: 40px 20px 0; */
+    margin-bottom: 20px;
+    height: 45px;
+    font-family: sans-serif;
+
+}
+header > *{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    vertical-align: middle;
+}
+.logo{
+    width: 15%;
+
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+   
+
+}
+
+.action{
+    width: 15%;
+    display:inline;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+   
+}
+
+
+
+ul{
+    padding-left:0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.btn-start{
+    display: inline;
+    color: white;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    background-color: #67b54b;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0.5px white;
+    cursor: pointer;/*Cambia de flecha a manita*/
+}
+
+/* Parte de Contenedor */
+.parrafo-abajo{
+    color: #46484c;
+    /*Fuente de Google Fonts*/
+    font-family: 'Ubuntu', sans-serif;
+}
+.promocion{
+    color: #8b8b8bcc;
+       /*Fuente de Google Fonts*/
+       font-family: 'Bubblegum Sans', cursive;
+       font-family: 'Londrina Outline', cursive;
+       font-family: 'Phudu', cursive;
+       font-family: 'Quicksand', sans-serif;
+    
+}
+.btn{
+    color: #fff;
+    background-color: #025157;
+}
+
+
+footer{
+    text-align: center;
+}
+
+h3{
+font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 30px;
+  color: #025157;
+}
+
+h4{
+    font-size: 16px;
+    color: #343434;
+    line-height: 1 ;
+    margin-bottom: 20px;
+}
+
+
+.main-video{
+  display: flex;
+  width: 90%;
+  margin: 100px auto;
+  align-items: center;
+  
+}
+
+
+.reproducion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.reproducion img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+
+
+ .descripcion-video > form {
+    display: flex;
+  }
+
+
+
+  .btn-start-2{
+    display: inline;
+    color: white;
+    padding-left: 14px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    background-color: #2c2fd8cc;
+    border-radius: 0 5px 5px 0 ;
+    cursor: pointer;/*Cambia de flecha a manita*/ 
+  }
+
+  .email{
+
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 12px; 
+    margin-right: 0;
+   
+ 
+  }
+
+  .margen-email{
+    display: flex;
+  }
+
+/*CSS de Postwork S03*/
+
+.postworks3{
+    display: flex;
+    width: 95%;
+    margin: 100px auto;
+    align-items: center;
+    background-color: #a1d683;
+}
+
+
+.des-postworks3{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+
+.img-postworks3  {
+    display: inline;
+    background-color: white;
+    margin-right: 200px;
+    margin-block-start: 100px;
+  
+  }
+
+  .btn-sale{
+    display: inline;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    background-color: #2c2fd8cc;
+    border-radius: 5px  ;
+    cursor: pointer;/*Cambia de flecha a manita*/ 
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 60px;
+    margin-block-end: 20px;
+    position: relative;
+}
+
+
+  
+   
+  .des-img{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .zona-des-img{
+    background-color: #a1d683;
+    padding-top: 100px;
+
+  }
+
+
+  h5{
+    font-family: "Alegreya", serif;
+    line-height: 30px;
+    color: #025157;
+}
+  
+h6{
+    font-family: "Alegreya", serif;
+
+    color: gray;
+}
+  
+  .btn-2{
+    display: inline;
+    color: white;
+    padding-left: 14px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    background-color: #2c2fd8cc;
+    border-radius: 5px  ;
+    cursor: pointer;/*Cambia de flecha a manita*/ 
+    text-align: center;
+    margin-block-end: 30px;
+
+    }
+    
+    .margen-sale-2{
+        align-items: center;
+    }
